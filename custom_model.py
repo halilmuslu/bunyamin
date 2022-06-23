@@ -8,6 +8,9 @@ class CustomModel:
     def vgg16(self):
         pass
 
+    def vgg19(self):
+        pass
+
 
 if __name__ == "__main__":
     custom_model = CustomModel("vgg16")
