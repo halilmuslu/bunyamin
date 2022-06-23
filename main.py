@@ -17,4 +17,5 @@ class Matematik:
     def carp(self):
         return (self.sayi_1 * self.sayi_2)
 
-
+    def log(self):
+        return self.sayi_1
