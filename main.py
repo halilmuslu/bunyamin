@@ -8,3 +8,5 @@ class Matematik:
     def topla(self):
         return (self.sayi_1 + self.sayi_2)
 
+    def fark(self):
+        return (self.sayi_1 - self.sayi_2) 
