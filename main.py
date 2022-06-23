@@ -8,3 +8,7 @@ class Matematik:
     def topla(self):
         return (self.sayi_1 + self.sayi_2)
 
+
+    def cikar(self):
+        return (self.sayi_1 - self.sayi_2)
+
