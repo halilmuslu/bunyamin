@@ -12,3 +12,7 @@ class Matematik:
     def cikar(self):
         return (self.sayi_1 - self.sayi_2)
 
+
+    def bol(self):
+        return (self.sayi_1 / self.sayi_2)
+
