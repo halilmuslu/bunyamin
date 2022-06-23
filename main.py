@@ -17,9 +17,11 @@ class Matematik:
     def carp(self):
         return (self.sayi_1 * self.sayi_2)
 
+    def ust_alma(self):
+        return (self.sayi_1 ^ self.sayi_2)
+
     def log(self):
         return self.sayi_1
 
     def fark(self):
         return (self.sayi_1 - self.sayi_2) 
-
