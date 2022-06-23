@@ -17,6 +17,9 @@ class Model:
         self.output = model.predict(self.Image)
         return self.output
 
+    def readImage(self):
+        return self.Image
+
 
 if __name__ == '__main__':
     model = Model("path")
