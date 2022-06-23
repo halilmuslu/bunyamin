@@ -8,7 +8,10 @@ class Model:
         self.readModel()
 
     def readModel(self):
-        self.model = tf.keras.Model.readModel(self.model_path)
+        if "yolov5":
+            self.model = tf.keras.Model.readModel(self.model_path)
+        else:
+            self.model = tf.keras.Model.getModel(self.model_path)
 
     def predict(self, Image):
         self.Image = Image
