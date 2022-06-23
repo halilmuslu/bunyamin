@@ -14,5 +14,5 @@ class Matematik:
 
 
     def bol(self):
-        return (self.sayi_1 / self.sayi_2)
+        return (float(self.sayi_1) / self.sayi_2)
 
