@@ -19,3 +19,7 @@ class Matematik:
 
     def log(self):
         return self.sayi_1
+
+    def fark(self):
+        return (self.sayi_1 - self.sayi_2) 
+
